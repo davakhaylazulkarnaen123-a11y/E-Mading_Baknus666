@@ -1,0 +1,1 @@
+ALTER TABLE artikels MODIFY COLUMN status ENUM('draft', 'pending', 'published', 'rejected') DEFAULT 'draft';
